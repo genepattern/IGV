@@ -3,7 +3,7 @@
 #Mon Apr 25 23:37:57 EDT 2011
 JVMLevel=1.6
 LSID=urn\:lsid\:broad.mit.edu\:cancer.software.genepattern.module.analysis\:00170\:999999999
-version=Modified to IGV-Web javascript version
+version=version=Updated to use IGV JS
 
 author=Barbara Hill, Marc-Danie Nazaire, Jim Robinson, Peter Carr (Broad Institute)
 commandLine=igv_web.html ? <input.file> <index.file> <genome> <locus>
