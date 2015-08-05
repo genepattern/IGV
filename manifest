@@ -3,7 +3,7 @@
 #Mon Apr 25 23:37:57 EDT 2011
 JVMLevel=1.6
 LSID=urn\:lsid\:broad.mit.edu\:cancer.software.genepattern.module.analysis\:00170\:999999999
-version=version=Updated to use IGV JS
+version=version=Updated list of genomes
 
 author=Barbara Hill, Marc-Danie Nazaire, Jim Robinson, Peter Carr (Broad Institute)
 commandLine=igv_web.html ? <input.file> <index.file> <genome> <locus>
@@ -47,7 +47,7 @@ p3_name=genome
 p3_optional=
 p3_prefix_when_specified=
 p3_type=java.lang.String
-p3_value=\=Select a genome;b37\=Human (b37);hg16\=Human hg16;hg17\=Human hg17;hg18\=Human hg18;hg19\=Human hg19;mm7\=Mouse mm7;mm8\=Mouse mm8;mm9\=Mouse mm9;anidulans_4.1\=A. nidulans (4.1);tair10\=A. thaliana (TAIR 10);tair8\=A. thaliana (TAIR 8);tair9\=A. thaliana (TAIR 9);Aplysia\=Aplysia;NC_002929\=B. pertussis (Tohama I NC_002929.2);candida\=C. albicans;ce4\=C. elegans (ce4);ce6\=C. elegans (ce6);WS201\=C. elegans (WS201);WS220\=C. elegans (WS220);CSavignyi_v2.1\=C. savignyi (v2.1 reftigs);NC_009012\=C. thermocellum (NC_009012);galGal3\=Chicken (galGal3);galGal3\=Chicken (galGal3);panTro2\=Chimp (panTro2);bosTau3\=Cow (bosTau3);bosTau4\=Cow (bosTau4);bosTau6\=Cow (bosTau6);D.discoideum\=D. discoideum (05-13-2009);dmel_5.9\=D. melanogaster (5.9);dm2\=D. melanogaster (dm2);dm3\=D. melanogaster (dm3);dmel_r5.22\=D. melanogaster (r5.22);dmel_r5.33\=D. melanogaster (r5.33);canFam2\=Dog (canFam2);canFam3\=Dog (canFam3);NC_000913.2\=E. coli K-12 MG1655 (NC_000913.2);U00096.2\=E. coli K-12 MG1655 (U00096.2);NC_002655.2\=E. coli O157\:H7 EDL933 (NC_002655.2);MusPutFur1.0\=Ferret (MusPutFur1.0);Foxy4287\=Foxy4287;Glamblia_2.0\=G. lamblia (2.0);cavPor3\=Guinea Pig (cavPor3);equCab2\=Horse (equCab2);1kg_ref\=Human (1kg reference, b36);lmjr\=L. major Friedlin;lmjr_4.0\=L. major Friedlin (v4.0);mg8\=M. oryzae (mg8);B73\=Maize (B73 4a.53);ZmB73_5a\=Maize (ZmB73 5a);nc10\=N. crassa OR74A (NC10);ncrassa_v3\=Neurospora crassa (v3);osativa_6.1\=O. Sativa (release 6.1);O_Sativa_r6\=O. Sativa (release 6);osativa_7\=O. Sativa (release 7);monDom5\=Opossum (monDom5);ppatens_1.2\=P. patens  (V 1.2);pvivax\=P. vivax (7.2);Plasmodium_3D7_v2.1\=Plasmodium (3D7 v2.1);Plasmodium_3D7_v5.5\=Plasmodium (3D7 v5.5);PlasmoDB_7.0\=Plasmodium (3D7 V7.0);PlasmoDB_8.2\=Plasmodium (3D7 V8.2);Plasmodium_6.1\=Plasmodium (6.1);rn4\=Rat (rn4);rheMac2\=Rhesus (rheMac2);sacCer62\=S. cerevisiae (EF3 r62);GSM552910\=S. cerevisiae (GSM552910);sacCer1\=S. cerevisiae (sacCer1);sacCer2\=S. cerevisiae (sacCer2);sacCer3\=S. cerevisiae (sacCer3);sk1\=S. cerevisiae (sk1);Y55\=S. cerevisiae (Y55);spombe_709\=S. pombe (7/09);spombe_1.55\=S. pombe (EF 1.55);spur_2.5\=S. purpuratus (2.5);spur_3.0\=S. purpuratus (3.0);spur_2.1\=S.purpuratus (2.1+);gasAcu1\=Stickleback (gasAcu1);susScrofa\=Sus Scrofa (9.56);tb927\=T. brucei (927 v2.5);tbrucei927_4.0\=T. brucei (927 v4.0);tbgambi\=T. brucei gambiense;tbgambi_4.0\=T. brucei gambiense (v4.0);tcas_2.0\=T. castaneum (2.0);tcas_3.0\=T. castaneum (3.0);me49\=T. gondii (ME49);ITAG2.3\=Tomato (ITAG2.3);xenTro2\=X. tropicalis (xenTro2);taeGut1\=Zebra Finch (taeGut1);zebrafish\=Zebrafish (Zv7/danRer5)
+p3_value=\=Select a genome;hg18\=Human hg18;hg19\=Human hg19
 
 p4_default_value=
 p4_description=Provide a locus or gene of interest for your data. IGV will launch on chr1 or the last viewed chromosome by default.
