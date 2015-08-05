@@ -28,6 +28,8 @@ function getFileExtension(file)
 $(function()
 {
     var tracks = [];
+    var hg19 = false;
+
     var igv_options = {
         showNavigation: true//,
         /*showKaryo: false*/
@@ -41,7 +43,7 @@ $(function()
     }
     else {
 
-        var inputFiles = inputFiles.sort();
+        inputFiles = inputFiles.sort();
         for (var t = 0; t < inputFiles.length; t++) {
             var lastIndex = inputFiles[t].lastIndexOf('/');
             if (lastIndex != -1) {
@@ -91,13 +93,29 @@ $(function()
                 if (paramNames[i] != "input.file" && paramNames[i] != "task" && paramNames[i] != "file"
                     && value != undefined && value != null
                     && value.length == 1 && value[0].length > 0) {
+
+                    if(paramNames[i] === "genome" && value[0] ==="hg19" )
+                    {
+                        hg19 = true;
+                    }
                     igv_options[paramNames[i]] = value[0];
                 }
             }
         }
 
         if (tracks.length != 0) {
-
+            //add the Gene annotations track for hg19 by default
+            if (hg19)
+            {
+                tracks.push(
+                    {
+                        name: "Genes",
+                        url: "//dn7ywbm9isq8j.cloudfront.net/annotations/hg19/genes/gencode.v18.collapsed.bed",
+                        order: Number.MAX_VALUE,
+                        displayMode: "EXPANDED"
+                    }
+                );
+            }
             igv_options["tracks"] = tracks;
             var div = $("#myDiv")[0];
 
