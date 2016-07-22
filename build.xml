@@ -14,6 +14,10 @@
         <fileset dir="." includes="igv_web.html"/>
         <zipfileset dir="js" prefix="js" includes="*.js"/>
         <zipfileset dir="css" prefix="css" includes="*.css"/>
+        <zipfileset dir="img" prefix="img" includes="*.png"/>
+        <zipfileset dir="jquery" prefix="jquery" includes="*"/>
+        <zipfileset dir="font-awesome" prefix="font-awesome"/>
+        <zipfileset dir="igv" prefix="igv"/>
     </zip>
     <antcall target="postzip"/>
 </target>
