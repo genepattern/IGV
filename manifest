@@ -2,7 +2,7 @@
 #IGV
 #Mon Apr 25 23:37:57 EDT 2011
 JVMLevel=1.6
-LSID=urn\:lsid\:broad.mit.edu\:cancer.software.genepattern.module.analysis\:00170\:999999999
+LSID=urn\:lsid\:8080.genepatt.genepattern.broadinstitute.org\:genepatternmodules\:8229\:999999999
 version=Modified to IGV-Web javascript version
 
 author=Barbara Hill, Marc-Danie Nazaire, Thorin Tabor, Jim Robinson, Peter Carr (Broad Institute)
@@ -11,7 +11,7 @@ cpuType=any
 description=Launches IGV.js with input file(s)
 fileFormat=
 language=JavaScript
-name=IGV
+name=IGV.js
 os=any
 
 p1_MODE=IN
@@ -68,4 +68,4 @@ taskType=javascript
 taskDoc=doc.html
 userid=
 
-publicationDate=07/22/2016 15\:40
+publicationDate=10/24/2016 15\:40
